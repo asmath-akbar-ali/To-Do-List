@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="styles.css" />
+	<title>Form</title>
+</head>
+<body>
+	<div class="container">
+		<div class="box">
+			<h2>Fill in your Details</h2>
+			<form action="to_do_list.html" method="get" id="user-form">
+				<br/>
+				<label for="name">Name</label><br/>
+				<input type="text" id="name" name="Name" placeholder="John Doe"/><br /><br/>
+
+				<label for="email">Email</label><br />
+				<input type="email" id="email" name="Email" placeholder="abc@gmail.com"/><br /><br />
+
+				<label for="username">Username</label><br />
+				<input type="text" id="username" name="Username" placeholder="John_Doe"/><br /><br />
+
+				<label for="phone">Phone Number</label><br />
+				<input
+					type="tel"
+					id="phone"
+					name="Phone"
+					pattern="[0-9]{10}"
+					placeholder="+1234567890"
+				/><br /><br />
+
+				<label for="gender">Gender</label><br />
+				<input type="radio" id="male" name="gender" value="male" />
+				<label for="male">Male</label>
+				<input type="radio" id="female" name="gender" value="female" />
+				<label for="female">Female</label><br /><br />
+
+				<button type="submit">Submit Form</button>
+			</form>
+		</div>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>4
