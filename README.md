@@ -34,12 +34,12 @@ An interactive and minimal To-Do List application to help users manage daily tas
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/To-Do-List-App.git
+   git clone https://github.com/yourusername/To-Do-List.git
    ```
 
 2. Navigate to the project folder:
    ```bash
-   cd To-Do-List-App
+   cd To-Do-List
    ```
 
 3. Open `index.html` in your browser.
