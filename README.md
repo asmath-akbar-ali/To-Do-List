@@ -70,9 +70,8 @@ An interactive and minimal To-Do List application to help users manage daily tas
 to-do-list-app/
 ├── index.html
 ├── style.css
-├── script.js
+├── scripts.js
 ├── images/
-│   └── todo-banner.png
 ```
 
 ## Website Link
